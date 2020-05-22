@@ -26,6 +26,11 @@ def game_hash
 end
 
 def filler
+  puts "Enter A"
+  a = gets.chomp
+  puts "Enter B"
+  b = gets.chomp
+  c = a.to_i + b.to_i
   []
   []<<{}
    {:player_name => "Brook Lopez"}
