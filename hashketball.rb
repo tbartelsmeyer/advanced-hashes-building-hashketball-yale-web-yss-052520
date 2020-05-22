@@ -1,4 +1,11 @@
 def game_hash
+  game_hash = {
+    home:
+    away:
+  }
+end
+
+def filler
   
 end
 
@@ -24,7 +31,7 @@ k1_team (home,away) > v1_team hash
     v2_category
 =end
 
-players => [
+  players => [
   {:player_name => "Brook Lopez"}
   :number
   :shoe
