@@ -37,11 +37,12 @@ def filler
   out_array << {:player_name => "Brook Lopez"}
 end
 
+charlotte = []
 def filler2(player_arr)
   out_hash = {}
-  stats = []
+  stats = [ :player_name, :number, :shoe, :points, :rebounds, :assist, :steals, :blocks, :slam_dunks]
   player_arr.each { |value|
-    
+    stats
   }
 end
 
