@@ -3,12 +3,14 @@ def game_hash
     home: {
       team_name: "Brooklyn Nets",
       colors: ["Black", "White"],
-      players: "Placeholder"
+      players: {
+        
+      }
     },
     away: {
       team_name: "Charlotte Hornets",
       colors: ["Turqoise", "Purple"],
-      players: "Placeholder"
+      players: 
     }
   }
 end
