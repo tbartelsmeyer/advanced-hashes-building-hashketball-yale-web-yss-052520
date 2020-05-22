@@ -1,3 +1,5 @@
+require 'pry'
+
 def game_hash
   game_hash = {
     home: {
@@ -38,7 +40,8 @@ def filler
 end
 
 charlotte = ["Jeff Adrien",	"Bismack Biyombo",	"DeSagna Diop",	"Ben Gordon",	"Kemba Walker"]
-brooklyn = 
+brooklyn = ["Alan Anderson",	"Reggie Evans",	"Brook Lopez",	"Mason Plumlee",	"Jason Terry"]
+
 def filler2(player_arr)
   out_arr = []
   stats = [ :player_name, :number, :shoe, :points, :rebounds, :assist, :steals, :blocks, :slam_dunks]
@@ -49,9 +52,13 @@ def filler2(player_arr)
       puts "#{stat} is?"
       input = gets.chomp
       out_arr[index][stat] = input
+      binding.pry
     }
   }
+  p out_arr
 end
+
+filler2(charlotte)
 
 =begin
 
