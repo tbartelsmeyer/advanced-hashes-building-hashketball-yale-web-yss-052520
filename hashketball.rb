@@ -33,16 +33,8 @@ def filler
   c = a.to_i + b.to_i
   out_array = []
   puts = "player_name"
+  gets =
   out_array << {:player_name => "Brook Lopez"}
-  player_name:
-  number:
-  shoe:
-  points:
-  rebounds:
-  assists:
-  steals:
-  blocks:
-  slam_dunks:
 end
 
 =begin
