@@ -1,5 +1,6 @@
 require 'pry'
 
+=begin
 def game_hash
   game_hash = {
     home: {
@@ -26,6 +27,7 @@ def game_hash
     }
   }
 end
+=end
 
 def filler
   puts "Enter A"
