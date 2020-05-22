@@ -39,10 +39,13 @@ end
 
 charlotte = []
 def filler2(player_arr)
-  out_hash = {}
+  out_arr = []
   stats = [ :player_name, :number, :shoe, :points, :rebounds, :assist, :steals, :blocks, :slam_dunks]
-  player_arr.each { |value|
-    stats
+  player_arr.each_with_index { |name, index|
+    out_arr << {}
+    stats.each { |stat|
+      out_arr << stat
+    }
   }
 end
 
@@ -70,6 +73,16 @@ k1_team (home,away) > v1_team hash
 
   players => [
   {:player_name => "Brook Lopez"
+  :number
+  :shoe
+  :points
+  :rebounds
+  :assists
+  :steals
+  :blocks
+  :slam_dunks
+  }
+  {:player_name => "Johnnalskfsd"
   :number
   :shoe
   :points
