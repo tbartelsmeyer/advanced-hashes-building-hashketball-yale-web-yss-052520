@@ -34,14 +34,15 @@ def filler
   out_array = []
   puts = "player_name"
   out_array << {:player_name => "Brook Lopez"}
-  :number
-  :shoe
-  :points
-  :rebounds
-  :assists
-  :steals
-  :blocks
-  :slam_dunks
+  player_name:
+  number:
+  shoe:
+  points:
+  rebounds:
+  assists:
+  steals:
+  blocks:
+  slam_dunks:
 end
 
 =begin
