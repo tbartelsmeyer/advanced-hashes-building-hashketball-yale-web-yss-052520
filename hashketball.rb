@@ -37,6 +37,14 @@ def filler
   out_array << {:player_name => "Brook Lopez"}
 end
 
+def filler2(player_arr)
+  out_hash = {}
+  stats = []
+  player_arr.each { |value|
+    
+  }
+end
+
 =begin
 
 top_hash[team][players][arr_index][player_name] = string
