@@ -28,18 +28,7 @@ def game_hash
   }
 end
 
-def filler
-  puts "Enter A"
-  a = gets.chomp
-  puts "Enter B"
-  b = gets.chomp
-  c = a.to_i + b.to_i
-  out_array = []
-  puts = "player_name"
-  gets =
-  out_array << {:player_name => "Brook Lopez"}
-end
-
+#I made this program to enter all of the player data, because it seemed less mistake prone and faster, plus I learned more doing it than declaring the whole thing fully literally
 charlotte = ["Jeff Adrien",	"Bismack Biyombo",	"DeSagna Diop",	"Ben Gordon",	"Kemba Walker"]
 brooklyn = ["Alan Anderson",	"Reggie Evans",	"Brook Lopez",	"Mason Plumlee",	"Jason Terry"]
 
@@ -75,7 +64,7 @@ k1_team (home,away) > v1_team hash
     colors > array
       strings
     players > array
-      hashes > string or int
+      hashes
         :player_name
         :number
         :shoe
@@ -85,7 +74,6 @@ k1_team (home,away) > v1_team hash
         :steals
         :blocks
         :slam_dunks
-    v2_category
 
   players => [
   {:player_name => "Brook Lopez"
@@ -109,8 +97,4 @@ k1_team (home,away) > v1_team hash
   :slam_dunks
   }
   ]
-  
-  :players => [ Hashes
-  ]Each Hash in the Array should contain the players' stats. Each stat should be a key that points to a value for that stat. The keys should be:
-  
 =end
