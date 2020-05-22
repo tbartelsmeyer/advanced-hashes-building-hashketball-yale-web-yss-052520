@@ -63,7 +63,7 @@ def filler2(player_arr)
   p out_arr
 end
 
-filler2(brooklyn)
+#filler2(brooklyn)
 
 =begin
 
