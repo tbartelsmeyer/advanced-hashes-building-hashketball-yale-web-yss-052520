@@ -31,9 +31,9 @@ def filler
   puts "Enter B"
   b = gets.chomp
   c = a.to_i + b.to_i
-  []
-  []<<{}
-   {:player_name => "Brook Lopez"}
+  out_array = []
+  puts = "player_name"
+  out_array << {:player_name => "Brook Lopez"}
   :number
   :shoe
   :points
