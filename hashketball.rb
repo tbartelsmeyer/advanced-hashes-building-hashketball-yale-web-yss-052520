@@ -42,9 +42,12 @@ def filler2(player_arr)
   out_arr = []
   stats = [ :player_name, :number, :shoe, :points, :rebounds, :assist, :steals, :blocks, :slam_dunks]
   player_arr.each_with_index { |name, index|
-    out_arr << {}
+    out_arr[index] = {}
+    puts "Now doing #{name}"
     stats.each { |stat|
-      out_arr << stat
+      puts "#{stat} is?"
+      input = gets.chomp
+      out_arr[index][stat] = input
     }
   }
 end
