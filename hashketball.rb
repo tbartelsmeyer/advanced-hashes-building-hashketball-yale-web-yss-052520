@@ -51,9 +51,11 @@ def filler2(player_arr)
     out_arr[index] = {}
     puts "Now doing #{name}"
     stats.each { |stat|
-      puts "#{stat} is?"
-      input = gets.chomp
-      out_arr[index][stat] = input.to_i
+      if stat == :player_name
+      else
+        puts "#{stat} is?"
+        input = gets.chomp
+        out_arr[index][stat] = input.to_i
       binding.pry
     }
   }
