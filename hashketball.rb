@@ -65,7 +65,8 @@ def filler2(player_arr)
   p out_arr
 end
 
-filler2(charlotte)
+charlotte_arr = filler2(charlotte)
+p charlotte_arr
 
 =begin
 
