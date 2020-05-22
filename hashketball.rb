@@ -43,7 +43,7 @@ end
 
 charlotte = ["Jeff Adrien",	"Bismack Biyombo",	"DeSagna Diop",	"Ben Gordon",	"Kemba Walker"]
 brooklyn = ["Alan Anderson",	"Reggie Evans",	"Brook Lopez",	"Mason Plumlee",	"Jason Terry"]
-test = ["Jeff Adrien"]
+
 def filler2(player_arr)
   out_arr = []
   stats = [ :player_name, :number, :shoe, :points, :rebounds, :assist, :steals, :blocks, :slam_dunks]
@@ -64,7 +64,7 @@ def filler2(player_arr)
   p out_arr
 end
 
-filler2(test)
+filler2(charlotte)
 
 =begin
 
