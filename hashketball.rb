@@ -37,7 +37,6 @@ k1_team (home,away) > v1_team hash
         :blocks
         :slam_dunks
     v2_category
-=end
 
   players => [
   {:player_name => "Brook Lopez"}
@@ -50,3 +49,5 @@ k1_team (home,away) > v1_team hash
   :blocks
   :slam_dunks
   ]
+  
+=end
