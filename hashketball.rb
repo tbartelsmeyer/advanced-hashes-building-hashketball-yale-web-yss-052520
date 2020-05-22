@@ -10,7 +10,13 @@ def game_hash
     away: {
       team_name: "Charlotte Hornets",
       colors: ["Turqoise", "Purple"],
-      players: 
+      players: {
+        Jeff Adrien:
+        Bismack Biyombo:
+        DeSagna Diop:
+        Ben Gordon:
+        Kemba Walker:
+      }
     }
   }
 end
