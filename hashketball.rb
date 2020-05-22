@@ -37,7 +37,8 @@ def filler
   out_array << {:player_name => "Brook Lopez"}
 end
 
-charlotte = []
+charlotte = ["Jeff Adrien",	"Bismack Biyombo",	"DeSagna Diop",	"Ben Gordon",	"Kemba Walker"]
+brooklyn = 
 def filler2(player_arr)
   out_arr = []
   stats = [ :player_name, :number, :shoe, :points, :rebounds, :assist, :steals, :blocks, :slam_dunks]
