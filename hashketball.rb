@@ -69,7 +69,7 @@ k1_team (home,away) > v1_team hash
     v2_category
 
   players => [
-  {:player_name => "Brook Lopez"}
+  {:player_name => "Brook Lopez"
   :number
   :shoe
   :points
@@ -78,6 +78,10 @@ k1_team (home,away) > v1_team hash
   :steals
   :blocks
   :slam_dunks
+  }
   ]
+  
+  :players => [ Hashes
+  ]Each Hash in the Array should contain the players' stats. Each stat should be a key that points to a value for that stat. The keys should be:
   
 =end
