@@ -53,7 +53,7 @@ def filler2(player_arr)
     stats.each { |stat|
       puts "#{stat} is?"
       input = gets.chomp
-      out_arr[index][stat] = input
+      out_arr[index][stat] = input.to_i
       binding.pry
     }
   }
